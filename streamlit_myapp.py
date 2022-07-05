@@ -13,3 +13,5 @@ streamlit.text('🐔 Harb-boiled free range eggs')
 streamlit.text('🥑🍞 Avocado toast')
 
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
+
+import pandas
