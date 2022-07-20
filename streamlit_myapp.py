@@ -49,6 +49,7 @@ else:
  streamlit.dataframe(fruityvice_normalized)
 
 #don't run anything past here while we trouble shoot
+except URLError as e:
 streamlit.stop()
 
 #import snowflake.connector
