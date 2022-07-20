@@ -63,8 +63,8 @@ streamlit.header("The fruit load list contains")
 #snowflake related function
 def get_fruit_load_list():
  with my_cnx.cursor() as my_cur:
-my_cur.execute("select * from fruit_load_list")
-return my_cur.fetchall()
+      my_cur.execute("select * from fruit_load_list")
+      return my_cur.fetchall()
 
 #add a bottom to load the fruit
 if streamlit.button('Get Fruit Load List'):
